@@ -1,0 +1,25 @@
+{
+  "name": "express-google-translate",
+  "version": "1.0.0",
+  "description": "An Express web service that Google-translates an input string to a different language.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "author": "Lewis Chan",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^4.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
